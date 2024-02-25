@@ -25,4 +25,10 @@
         android:layout_marginTop="20dp"
         android:onClick="onSendMessage"
         android:text="@string/send" />
+
+    <TextView
+        android:id="@+id/messageHistory"
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
 </LinearLayout>
